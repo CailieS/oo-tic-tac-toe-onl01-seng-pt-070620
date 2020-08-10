@@ -109,13 +109,11 @@ class TicTacToe
     end
   end
 
- def play 
-   until over?
-   puts "Congratulations X!"
-   turn 
- end
-   
- end
+  def play
+   until over? == true
+    turn
+  end
+  end
 
 
 end
