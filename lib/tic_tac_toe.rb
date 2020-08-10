@@ -90,11 +90,12 @@ class TicTacToe
   return false 
   end 
 
- def full?
+  def full?
    turn_count == 9
- end
+  end
 
-
+  def draw?
+     &&
 
 
 
