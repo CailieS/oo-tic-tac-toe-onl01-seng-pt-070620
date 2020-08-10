@@ -111,6 +111,7 @@ class TicTacToe
 
  def play 
    until over?
+   puts "Congratulations X!"
    turn 
  end
    
