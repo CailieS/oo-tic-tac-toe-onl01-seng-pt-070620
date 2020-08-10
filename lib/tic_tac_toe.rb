@@ -102,6 +102,9 @@ class TicTacToe
     won? || full? || draw?
   end
 
+  def winner
+    
+  end
 
 
 
